@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
-  build: {
-    sourcemap: true, // for mentor code reviews
-  },
+  // build: {
+  //   sourcemap: true, // for mentor code reviews
+  // },
 })
