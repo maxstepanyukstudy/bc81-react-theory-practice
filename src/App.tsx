@@ -30,8 +30,31 @@ function Tests() {
   );
 }
 
+function Product() {
+  return (
+    <div>
+      <h2>Cookies</h2>
+      <p>Price: 999 credits</p>
+    </div>
+  );
+}
+
 function App() {
-  return <Tests />;
+  return (
+    <>
+      <div>
+        <h1>Products</h1>
+
+        <Product />
+        <Product />
+        <Product />
+      </div>
+      <hr />
+      <div>
+        <Tests />
+      </div>
+    </>
+  );
 }
 
 export default App;
