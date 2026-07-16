@@ -8,9 +8,9 @@ function App() {
       <div>
         <h1>Products</h1>
 
-        <Product />
-        <Product />
-        <Product />
+        <Product name="Tacos With Lime" price={10.99} />
+        <Product name="Fries and Burger" price={12.99} />
+        <Product name="Борщ" price={14.99} />
       </div>
       <hr />
       <div>
