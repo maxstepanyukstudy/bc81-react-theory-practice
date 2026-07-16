@@ -5,7 +5,7 @@ const techName = "React";
 const imgUrl =
   "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=640";
 
-function App() {
+function Tests() {
   return (
     <>
       <div>
@@ -28,6 +28,10 @@ function App() {
       <p>second tag</p>
     </>
   );
+}
+
+function App() {
+  return <Tests />;
 }
 
 export default App;
