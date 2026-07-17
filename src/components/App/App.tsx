@@ -1,11 +1,20 @@
 import "./App.css";
 import Product from "../Product/Product";
 import Tests from "../Tests/Tests";
+import Mailbox from "../Mailbox/Mailbox";
 
 function App() {
   return (
-    <>
-      <div>
+    <main>
+      <section>
+        <Mailbox
+          username="Alice"
+          messages={["hello Alice", "call me when you can"]}
+        />
+        <Mailbox username="Bob" messages={[]} />
+      </section>
+      <hr />
+      <section>
         <h1>Products</h1>
 
         <Product
@@ -18,12 +27,12 @@ function App() {
           imgUrl="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?w=640"
           price={14.29}
         />
-      </div>
+      </section>
       <hr />
-      <div>
+      <section>
         <Tests />
-      </div>
-    </>
+      </section>
+    </main>
   );
 }
 
