@@ -7,7 +7,7 @@ interface ProductProps {
 export default function Product({ name, imgUrl, price }: ProductProps) {
   return (
     <div>
-      <h2>{name}</h2>
+      <h3>{name}</h3>
       <p>Price: {price} credits</p>
       <img src={imgUrl} alt={name} width="480" />
     </div>

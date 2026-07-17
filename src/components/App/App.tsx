@@ -7,6 +7,7 @@ function App() {
   return (
     <main>
       <section>
+        <h2>Mailboxes</h2>
         <Mailbox
           username="Alice"
           messages={["hello Alice", "call me when you can"]}
@@ -15,7 +16,7 @@ function App() {
       </section>
       <hr />
       <section>
-        <h1>Products</h1>
+        <h2>Products</h2>
 
         <Product
           name="Tacos With Lime"
@@ -30,6 +31,7 @@ function App() {
       </section>
       <hr />
       <section>
+        <h2>Tests </h2>
         <Tests />
       </section>
     </main>

@@ -8,7 +8,7 @@ export default function Tests() {
   return (
     <>
       <div>
-        <h1>Welcome to {techName}!</h1>
+        <h3>Welcome to {techName}!</h3>
         <p>
           This is JSX — it looks like HTML, but it's not quite the same. It has
           its own rules!
