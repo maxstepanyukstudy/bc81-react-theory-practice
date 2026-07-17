@@ -3,10 +3,19 @@ import Product from "../Product/Product";
 import Tests from "../Tests/Tests";
 import Mailbox from "../Mailbox/Mailbox";
 import Books from "../Books/Books";
+import AlertCssInline from "../Alerts/AlertCssInline/AlertCssInline";
+import AlertCssClass from "../Alerts/AlertCssClass/AlertCssClass";
+import AlertCssModule from "../Alerts/AlertCssModule/AlertCssModule";
 
 function App() {
   return (
     <main>
+      <section>
+        <h2>Css methods</h2>
+        <AlertCssInline />
+        <AlertCssClass />
+        <AlertCssModule />
+      </section>
       <section>
         <h2>Books of the week</h2>
         <Books />
