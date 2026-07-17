@@ -1,4 +1,4 @@
-import heroImgPath from "../assets/hero.png";
+import heroImgPath from "../../assets/hero.png";
 
 const techName = "React";
 const imgUrl =
