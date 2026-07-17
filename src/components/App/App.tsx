@@ -2,10 +2,16 @@ import "./App.css";
 import Product from "../Product/Product";
 import Tests from "../Tests/Tests";
 import Mailbox from "../Mailbox/Mailbox";
+import Books from "../Books/Books";
 
 function App() {
   return (
     <main>
+      <section>
+        <h2>Books of the week</h2>
+        <Books />
+      </section>
+      <hr />
       <section>
         <h2>Mailboxes</h2>
         <Mailbox
