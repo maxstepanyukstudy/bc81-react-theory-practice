@@ -11,8 +11,9 @@ function App() {
         <Mailbox
           username="Alice"
           messages={["hello Alice", "call me when you can"]}
+          unreadMessages={["call me when you can"]}
         />
-        <Mailbox username="Bob" messages={[]} />
+        <Mailbox username="Bob" messages={[]} unreadMessages={[]} />
       </section>
       <hr />
       <section>
