@@ -6,10 +6,17 @@ import Books from "../Books/Books";
 import AlertCssInline from "../Alerts/AlertCssInline/AlertCssInline";
 import AlertCssClass from "../Alerts/AlertCssClass/AlertCssClass";
 import AlertCssModule from "../Alerts/AlertCssModule/AlertCssModule";
+import AlertCssModuleClsx from "../Alerts/AlertCssModuleClsx/AlertCssModuleClsx";
 
 function App() {
   return (
     <main>
+      <section>
+        <AlertCssModuleClsx />
+        <AlertCssModuleClsx type="success" />
+        <AlertCssModuleClsx type="error" />
+      </section>
+      <hr />
       <section>
         <h2>Css methods</h2>
         <AlertCssInline />
