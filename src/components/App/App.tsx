@@ -7,10 +7,16 @@ import AlertCssInline from "../Alerts/AlertCssInline/AlertCssInline";
 import AlertCssClass from "../Alerts/AlertCssClass/AlertCssClass";
 import AlertCssModule from "../Alerts/AlertCssModule/AlertCssModule";
 import AlertCssModuleClsx from "../Alerts/AlertCssModuleClsx/AlertCssModuleClsx";
+import Button from "../Alerts/Button/Button";
 
 function App() {
   return (
     <main>
+      <section>
+        <Button variant="primary" text="Login" />
+        <Button variant="secondary" text="Follow" />
+      </section>
+      <hr />
       <section>
         <AlertCssModuleClsx />
         <AlertCssModuleClsx type="success" />
